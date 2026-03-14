@@ -1,0 +1,14 @@
+name: .cursorrules
+description: Configuration file for Cursor AI code editor containing project-specific
+  rules, coding conventions, and behavioral instructions for the AI assistant.
+url: ''
+tags:
+- AI Agents
+- Cursor
+- Developer Workflow
+- Coding Standards
+- AI Copilot
+created: '2025'
+modified: '2025'
+apis: []
+common: []
