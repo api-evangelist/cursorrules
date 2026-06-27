@@ -48,5 +48,5 @@ common:
     url: https://forum.cursor.com
   - type: Integrations
     url: https://cursor.com/marketplace
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://cursor.com/llms.txt
