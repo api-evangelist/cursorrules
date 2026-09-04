@@ -1,5 +1,6 @@
 aid: cursorrules
 name: .cursorrules
+x-type: convention
 description: >-
   .cursorrules is a project-level configuration file used by the Cursor AI code editor
   to define custom rules, coding conventions, and behavioral instructions that shape
