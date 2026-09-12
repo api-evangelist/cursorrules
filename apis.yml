@@ -59,6 +59,8 @@ maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 common:
+  - type: Website
+    url: https://www.cursor.com/
   - type: Cursor Documentation
     url: https://cursor.com/docs
   - type: Rules Documentation
