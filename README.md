@@ -1,4 +1,4 @@
-# .cursorrules (cursorrules)
+# .cursorrules
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,50 +64,32 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-.cursorrules is a project-level configuration file used by the Cursor AI code editor to define custom rules, coding conventions, and behavioral instructions that shape how the editor's AI assistant generates and edits code. The file is placed in the root of a repository and is read automatically by Cursor when the project is opened.
+.cursorrules is a project-level configuration file used by the Cursor AI code editor to define custom rules, coding conventions, and behavioral instructions that shape how the editor's AI assistant generates and edits code. The file is placed in the root of a repository and is read automatically by Cursor when the project is opened, giving teams a way to enforce architectural patterns, style guides, framework conventions, and tooling preferences across all AI-generated code. The format is intentionally flexible - rules are typically written in plain Markdown or natural language and may include sections describing project structure, technology stack, naming conventions, testing requirements, and out-of-scope behaviors. Cursor has since extended the concept with .cursor/rules/ directories of multiple scoped rule files, but the original .cursorrules file remains widely used and supported.
 
-This repository captures the .cursorrules format as a standard - tracking its specification, common patterns, and ecosystem of community-shared rule sets.
+**Areas:** AI Agents · AI Copilot · Coding Standards · Configuration · Cursor · Developer Workflow · LLM · Prompt Engineering · Rules · Standards
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/cursorrules/refs/heads/main/apis.yml)
+## .cursorrules on APIs.io
 
-## Scope
+Everything profiled for .cursorrules is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cursorrules/](https://apis.io/providers/cursorrules/)** — or go straight to one of the APIs or properties below.
 
-- **Type:** Standard
-- **Position:** Configuration
-- **Access:** Public
+## Where to find this API
 
-## Tags
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- AI Agents
-- AI Copilot
-- Coding Standards
-- Configuration
-- Cursor
-- Developer Workflow
-- LLM
-- Prompt Engineering
-- Rules
-- Standard
+- [Website](https://www.cursor.com/)
 
-## Timestamps
+## API Evangelist rating
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+Not yet rated. See [apis.io/providers/cursorrules/](https://apis.io/providers/cursorrules/).
 
-## APIs
+## How this profile is made
 
-No HTTP APIs are associated with the .cursorrules format itself - it is a file-based configuration standard read locally by the Cursor editor. Cursor has since extended the concept with `.cursor/rules/` directories containing multiple scoped rule files, but the original `.cursorrules` root file remains widely used and supported. Contributions welcome.
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Common Properties
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for .cursorrules: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- [Cursor Documentation](https://cursor.com/docs)
-- [Rules Documentation](https://cursor.com/docs/context/rules)
-- [Awesome CursorRules](https://github.com/PatrickJS/awesome-cursorrules)
-- [CursorRules Directory](https://cursor.directory)
-- [Cursor Forum](https://forum.cursor.com)
+## Open an issue
 
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cursorrules/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
